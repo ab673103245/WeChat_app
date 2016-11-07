@@ -23,6 +23,8 @@ public class BmobIMApplication extends Application {
             //注册消息接收器
             BmobIM.registerDefaultMessageHandler(new DemoMessageHandler(this));
         }
+        //注册消息接收器
+        BmobIM.registerDefaultMessageHandler(new DemoMessageHandler(this));
 
 
     }
